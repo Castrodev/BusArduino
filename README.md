@@ -4,9 +4,9 @@ Este es un proyecto de bus de Datos
 
 #Colaboradores
 
-Jose Luis Ramirez Castro
-Oscar Fabian
-Carlos Serrano
-Herbert Dubon
+*Jose Luis Ramirez Castro
+*Oscar Fabian
+*Carlos Serrano
+*Herbert Dubon
 
 10/03/2018
