@@ -9,7 +9,7 @@ int EstadoBusqueda=0;
 void setup() {
   // put your setup code here, to run once:
 Serial.begin (9600);
-Serial.println ("Estamos haciendo prueba de serial");
+Serial.println ("Soy un arduino");
 pinMode (13,OUTPUT);
 }
 
@@ -32,10 +32,11 @@ EstadoBusqueda= BuscarNumero;
  analogWrite (Led, Dato);
  Serial.print("El led es: ");
  Serial.print(Led);
- Serial.print("dato: ");
+ Serial.print(" dato: ");
  Serial.println(Dato);
 Led = 0;
 Dato= 0;
+EstadoBusqueda=0;
   }
   else if (Letra>= '0' && Letra <= '9')
  {
@@ -47,6 +48,11 @@ Dato= 0;
    {
      Dato=Dato*10+NumeroActual;
    }
+ }
+ else {
+  Led=0;
+  Dato=0;
+  
  }
 }
 
