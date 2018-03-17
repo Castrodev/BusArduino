@@ -1,0 +1,23 @@
+{
+  "name": "busarduino_nodejs",
+  "version": "1.0.0",
+  "description": "Este es un proyecto con Arduino",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Castrodev/BusArduino.git"
+  },
+  "author": "hdubon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Castrodev/BusArduino/issues"
+  },
+  "homepage": "https://github.com/Castrodev/BusArduino#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.30.0",
+    "serialport": "^6.1.1"
+  }
+}
